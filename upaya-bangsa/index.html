@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upaya Bangsa • Indonesia Menghadapi Globalisasi</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <script src="/scripts/sidebar.js" defer></script>
+
+    <div class="navbar">
+	<span style="font-size: 1.1rem;" class="flex">im<b class="gradient-text">g</b></span>
+        <a class="button button-transparent desktop" href="/">Halaman Utama</a>
+        <a class="button button-transparent desktop" href="/tentang/">Tentang Penulis</a>
+        <a class="button button-transparent desktop" href="/upaya-bangsa/">Upaya Bangsa</a>
+        <a class="button button-transparent desktop" href="/upaya-kita/">Upaya Kita</a>
+	<a class="button button-transparent mobile" onclick="openSidebar()" href="javascript:void()">☰</a>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+	<a class="sidebar-close" href="javascript:void()" onclick="closeSidebar()">×</a>
+	<span class="sidebar-logo">im<b class="gradient-text">g</b></span>
+
+	<div class="sidebar-content">
+	    <a href="/">Halaman Utama</a>
+	    <a href="/tentang/">Tentang Penulis</a>
+	    <a href="/upaya-bangsa/">Upaya Bangsa</a>
+	    <a href="/upaya-kita/">Upaya Kita</a>
+	</div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    
+    <section class="banner" id="hero-bg">
+	<div class="gradient-overlay"></div>
+	<div class="banner-element">
+	    <h1 class="banner-heading">&nbsp;&nbsp;&nbsp;<span style="font-weight: 600;">Indonesia</span><br><span style="opacity: 80%;">Menghadapi</span><br><span class="hero-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Globalisasi</span></h1>
+	</div>
+	<span class="banner-attr">Photo by <a class="link-light" href="https://unsplash.com/@lucious?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Muhammad Rizki</a> on <a class="link-light" href="https://unsplash.com/photos/rN3R-lKI45M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
+    </section>
+    <div class="center-grid">
+	<section id="home-main" class="main">
+	    <div class="flex-container wrap" style="border-radius: 50px; overflow: hidden; gap: 15px; width: 100%;">
+		<div class="card card-flex" onmouseup="window.location.href = '/upaya-bangsa/ekonomi/'" tabindex="0">
+		    <span class="card-text">Menghadapi <b>Globalisasi Ekonomi</b></span>
+		    <a class="card-button">&rarr;</a>
+		    <img src="/assets/card-img/ekonomi.png" alt="" class="card-image-top-right">
+		</div>
+		<div class="card card-flex" onmouseup="window.location.href = '/upaya-bangsa/komunikasi/'" tabindex="0">
+		    <span class="card-text">Menghadapi <b>Globalisasi Komunikasi</b></span>
+		    <a class="card-button">&rarr;</a>
+		    <img src="/assets/card-img/komunikasi.png" alt="" class="card-image-top-right">
+	        </div>
+		<div class="card card-flex" onmouseup="window.location.href = '/upaya-bangsa/trnasportasi/'" tabindex="0">
+		    <span class="card-text">Menghadapi <b>Globalisasi Transportasi</b></span>
+		    <a class="card-button">&rarr;</a>
+		    <img src="/assets/card-img/transportasi.png" alt="" class="card-image-top-right">
+	        </div>
+		<div class="card card-flex" onmouseup="window.location.href = '/upaya-bangsa/budaya/'" tabindex="0">
+		    <span class="card-text">Menghadapi <b>Globalisasi Budaya</b></span>
+		    <a class="card-button">&rarr;</a>
+		    <img style="margin-top: -20px;" src="/assets/card-img/budaya.png" alt="" class="card-image-top-right">
+	        </div>
+		<div class="card card-flex" onmouseup="window.location.href = '/upaya-bangsa/politik/'" tabindex="0">
+		    <span class="card-text">Menghadapi <b>Globalisasi Politik</b></span>
+		    <a class="card-button">&rarr;</a>
+		    <img style="margin-top: -20px;" src="/assets/card-img/politik.png" alt="" class="card-image-top-right">
+	        </div>
+	    </div>
+	</section>
+    </div>
+</body>
+</html>

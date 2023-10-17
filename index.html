@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesia Menghadapi Globalisasi</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <script src="/scripts/scroll.js" defer></script>
+    <script src="/scripts/sidebar.js" defer></script>
+
+    <div class="navbar">
+	<span style="font-size: 1.1rem;" class="flex">im<b class="gradient-text">g</b></span>
+        <a class="button button-transparent desktop" href="/">Halaman Utama</a>
+        <a class="button button-transparent desktop" href="tentang/">Tentang Penulis</a>
+        <a class="button button-transparent desktop" href="upaya-bangsa/">Upaya Bangsa</a>
+        <a class="button button-transparent desktop" href="upaya-kita/">Upaya Kita</a>
+	<a class="button button-transparent mobile" onclick="openSidebar()" href="javascript:void()">☰</a>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+	<a class="sidebar-close" href="javascript:void()" onclick="closeSidebar()">×</a>
+	<span class="sidebar-logo">im<b class="gradient-text">g</b></span>
+
+	<div class="sidebar-content">
+	    <a href="/">Halaman Utama</a>
+	    <a href="tentang/">Tentang Penulis</a>
+	    <a href="upaya-bangsa/">Upaya Bangsa</a>
+	    <a href="upaya-kita/">Upaya Kita</a>
+	</div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <section class="banner" id="hero-bg">
+	<div class="gradient-overlay"></div>
+	<div class="banner-element">
+	    <h1 class="banner-heading">&nbsp;&nbsp;&nbsp;<span style="font-weight: 600;">Indonesia</span><br><span style="opacity: 80%;">Menghadapi</span><br><span class="hero-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Globalisasi</span></h1>
+	</div>
+	<span class="banner-attr">Photo by <a class="link-light" href="https://unsplash.com/@lucious?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Muhammad Rizki</a> on <a class="link-light" href="https://unsplash.com/photos/rN3R-lKI45M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
+    </section>
+    <div class="element-banner-divider">&darr;</div>
+    <div class="center-grid">
+	<section id="home-main" class="main">
+	    <h1>Apa itu <b>Globalisasi</b>?</h1>
+	    <p>Globalisasi adalah proses intergrasi internasional yang terjadi karena pertukaran pandangan dunia, produk, pemikiran, ilmu pengetahuan, dan aspek-aspek kebudayaan lainnya. Globalisasi ini mempengaruhi hampir semua aspek kebudayaan masyarakat, seperti ekonomi, komunikasi, transportasi, budaya, dan politik. Karena itu, kita harus menghadapi globalisasi ini dengan baik agar mencapai kehidupan yang sejahtera.</p>
+	    <h1>Upaya <b>Bangsa</b></h1>
+	    <div class="card-container" id="horizontal-container">
+		<div class="card" onmouseup="window.location.href = '/upaya-bangsa/ekonomi/'" tabindex="0">
+		    <span class="card-text">Menghadapi <b>Globalisasi Ekonomi</b></span>
+		    <a class="card-button">&rarr;</a>
+		    <img src="/assets/card-img/ekonomi.png" alt="" class="card-image-top-right">
+		</div>
+		<div class="card" onmouseup="window.location.href = '/upaya-bangsa/komunikasi/'" tabindex="0">
+		    <span class="card-text">Menghadapi <b>Globalisasi Komunikasi</b></span>
+		    <a class="card-button">&rarr;</a>
+		    <img src="/assets/card-img/komunikasi.png" alt="" class="card-image-top-right">
+	        </div>
+		<div class="card" onmouseup="window.location.href = '/upaya-bangsa/trnasportasi/'" tabindex="0">
+		    <span class="card-text">Menghadapi <b>Globalisasi Transportasi</b></span>
+		    <a class="card-button">&rarr;</a>
+		    <img src="/assets/card-img/transportasi.png" alt="" class="card-image-top-right">
+	        </div>
+		<div class="card" onmouseup="window.location.href = '/upaya-bangsa/budaya/'" tabindex="0">
+		    <span class="card-text">Menghadapi <b>Globalisasi Budaya</b></span>
+		    <a class="card-button">&rarr;</a>
+		    <img style="margin-top: -20px;" src="/assets/card-img/budaya.png" alt="" class="card-image-top-right">
+	        </div>
+		<div class="card" onmouseup="window.location.href = '/upaya-bangsa/politik/'" tabindex="0">
+		    <span class="card-text">Menghadapi <b>Globalisasi Politik</b></span>
+		    <a class="card-button">&rarr;</a>
+		    <img style="margin-top: -20px;" src="/assets/card-img/politik.png" alt="" class="card-image-top-right">
+	        </div>
+	    </div>
+	    <h1>Apa yang bisa <b>kita</b> lakukan?</h1>
+	    <div class="flex-container row">	
+		<img src="/assets/hero/house.jpg" alt="" class="img">
+		<div class="flex" style="margin-left: 20px;">
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis finibus sapien ullamcorper aliquam. Aenean ac turpis erat. Vivamus venenatis feugiat faucibus. Nulla placerat nibh a vehicula molestie. Nunc et efficitur lorem. Integer in sem maximus, laoreet justo quis, bibendum tortor. Nulla commodo commodo nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam nec dignissim dui. Phasellus vel elit et turpis mattis pulvinar. Integer ultrices felis tortor, sit amet posuere sem facilisis nec. Pellentesque nec velit consequat, tempor tortor non, maximus turpis. Mauris vitae ipsum orci. Quisque mollis erat diam, iaculis sollicitudin est bibendum commodo. In in nulla purus. </p>
+		    <div class="center-grid">
+			<a class="button" href="#">Pelajari Lebih Lanjut...</a>
+		    </div>
+		</div>
+	    </div>
+	</section>
+    </div>
+</body>
+</html>
